@@ -23,15 +23,6 @@ As a beginner developer, I created this portfolio to practice:
 - UI/UX principles
 - Project organization and deployment
 
-## 📸 Preview
-
-Add screenshots of your portfolio here.
-
-```bash
-screenshots/
-├── home-page.png
-├── projects-section.png
-└── contact-section.png
 ```
 
 ## 🛠️ Technologies Used
