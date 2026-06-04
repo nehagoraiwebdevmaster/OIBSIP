@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #1b2735, #090a0f);
+  overflow: hidden;
+  color: white;
+}
+
+/* Stars Background */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow:
+    100px 200px white,
+    300px 400px white,
+    500px 100px white,
+    700px 300px white,
+    900px 500px white,
+    1200px 150px white,
+    1500px 450px white,
+    1700px 250px white,
+    400px 600px white,
+    800px 700px white;
+  animation: twinkle 4s infinite alternate;
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.converter-box {
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(12px);
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0,255,255,0.4);
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px cyan;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+input,
+select {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+select option {
+  color: black;
+}
+
+button {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px cyan;
+}
+
+.arrow {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  color: cyan;
+  font-weight: bold;
+  text-shadow: 0 0 10px cyan;
+}
+
+.formula-box {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(0,255,255,0.3);
+}
+
+.formula-box h2 {
+  margin-bottom: 10px;
+  color: #00ffff;
+}
+
+#formula {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ffffff;
+}

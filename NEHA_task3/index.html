@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Space Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stars"></div>
+
+  <div class="container">
+    <h1>Temperature Converter</h1>
+
+    <div class="converter-box">
+
+      <input type="number" id="temperature" placeholder="Enter Temperature">
+
+      <select id="fromUnit">
+        <option value="celsius">Celsius (°C)</option>
+        <option value="fahrenheit">Fahrenheit (°F)</option>
+        <option value="kelvin">Kelvin (K)</option>
+        <option value="rankine">Rankine (°R)</option>
+      </select>
+
+      <div class="arrow">🚀</div>
+
+      <select id="toUnit">
+        <option value="fahrenheit">Fahrenheit (°F)</option>
+        <option value="celsius">Celsius (°C)</option>
+        <option value="kelvin">Kelvin (K)</option>
+        <option value="rankine">Rankine (°R)</option>
+      </select>
+
+      <button onclick="convertTemperature()">Convert</button>
+
+      <div class="result" id="result">
+        Result will appear here
+      </div>
+
+      <div class="formula-box">
+        <h2>📘 Formula Used</h2>
+        <p id="formula">
+          Formula will appear here
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
