@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neha Gorai | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow"></div>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">#<span>NEHA</span></div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#future">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+
+    <div class="hero-content">
+      <h3>Hi, I'm</h3>
+      <h1>Neha Gorai</h1>
+
+      <h2>
+        <span class="typing"></span>
+      </h2>
+
+      <p>
+        Passionate frontend developer creating beautiful,
+        responsive and modern digital experiences.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="#" class="btn secondary-btn">Download Resume</a>
+        <a href="#contact" class="btn primary-btn">Contact Me</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="/image.me.jpeg"
+        alt="Neha Gorai">
+    </div>
+
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section reveal">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="glass-card about-container">
+
+      <div class="about-text">
+        <p>
+          I am Neha Gorai, a passionate and creative web developer who loves
+          building modern, responsive, and visually appealing websites.
+          I enjoy transforming ideas into interactive digital experiences.
+        </p>
+
+        <p>
+          Currently focused on frontend development while continuously learning
+          backend technologies to become a skilled Full Stack Developer in the future.
+        </p>
+
+        <p>
+          My journey in web development started with curiosity and creativity.
+          Over time, I developed strong skills in HTML, CSS, JavaScript,
+          React.js, and UI/UX design.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Education</h4>
+            <p>Bachelor's in Computer Applications</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Frontend Journey</h4>
+            <p>Learning responsive and interactive web development.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Future Goal</h4>
+            <p>Become a professional Full Stack Developer.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section reveal">
+
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill-card glass-card">
+        <h3>HTML</h3>
+        <div class="progress-bar">
+          <span data-width="95%"></span>
+        </div>
+        <p>95%</p>
+      </div>
+
+      <div class="skill-card glass-card">
+        <h3>CSS</h3>
+        <div class="progress-bar">
+          <span data-width="90%"></span>
+        </div>
+        <p>90%</p>
+      </div>
+
+      <div class="skill-card glass-card">
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+          <span data-width="85%"></span>
+        </div>
+        <p>85%</p>
+      </div>
+
+      <div class="skill-card glass-card">
+        <h3>React.js</h3>
+        <div class="progress-bar">
+          <span data-width="80%"></span>
+        </div>
+        <p>80%</p>
+      </div>
+
+      <div class="skill-card glass-card">
+        <h3>Tailwind CSS</h3>
+        <div class="progress-bar">
+          <span data-width="88%"></span>
+        </div>
+        <p>88%</p>
+      </div>
+
+      <div class="skill-card glass-card">
+        <h3>Node.js</h3>
+        <div class="progress-bar">
+          <span data-width="70%"></span>
+        </div>
+        <p>70%</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section reveal">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project-card glass-card">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000" alt="">
+        <div class="project-content">
+          <h3>Landing Page Website</h3>
+          <p>Modern responsive landing page with animations and UI effects.</p>
+          <span>HTML • CSS • JavaScript</span>
+
+          <div class="project-buttons">
+            <a href="#" class="btn primary-btn">Live Demo</a>
+            <a href="#" class="btn secondary-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass-card">
+        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000" alt="">
+        <div class="project-content">
+          <h3>Personal Portfolio</h3>
+          <p>Creative portfolio website with futuristic UI and smooth animations.</p>
+          <span>React • Tailwind CSS</span>
+
+          <div class="project-buttons">
+            <a href="#" class="btn primary-btn">Live Demo</a>
+            <a href="#" class="btn secondary-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass-card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1000" alt="">
+        <div class="project-content">
+          <h3>Temperature Converter</h3>
+          <p>Interactive temperature converter with clean UI and real-time conversion.</p>
+          <span>HTML • CSS • JavaScript</span>
+
+          <div class="project-buttons">
+            <a href="#" class="btn primary-btn">Live Demo</a>
+            <a href="#" class="btn secondary-btn">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Future Goals -->
+  <section id="future" class="section reveal">
+
+    <h2 class="section-title">Future Goals</h2>
+
+    <div class="glass-card future-content">
+      <p>
+        My goal is to become a highly skilled Full Stack Developer and work
+        on innovative technologies including Artificial Intelligence,
+        cloud applications, and modern web platforms.
+      </p>
+
+      <p>
+        I am passionate about creating impactful digital experiences
+        that solve real-world problems while continuously learning
+        and improving my skills every day.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section reveal">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-container">
+
+      <div class="contact-info glass-card">
+        <h3>Get In Touch</h3>
+
+        <p><i class="fa-solid fa-envelope"></i> nehagorai49@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+        <p><i class="fa-solid fa-location-dot"></i> India</p>
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form glass-card">
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <input type="text" placeholder="Subject">
+
+        <textarea rows="6" placeholder="Your Message"></textarea>
+
+        <button type="submit" class="btn primary-btn">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+
+    <p>© 2026 Neha Gorai. All Rights Reserved.</p>
+
+    <p>Made with ❤️ by Neha Gorai</p>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <button id="scrollTop">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
